@@ -6,7 +6,7 @@ use Bpost\BpostApiClient\Bpost\Order\Box\AtHome;
 use Bpost\BpostApiClient\Bpost\Order\Receiver;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidValueException;
 
-class AtHomeTest extends \PHPUnit_Framework_TestCase
+class AtHomeTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

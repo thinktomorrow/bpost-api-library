@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\Order\PugoAddress;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class PugoAddressTest extends \PHPUnit_Framework_TestCase
+class PugoAddressTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

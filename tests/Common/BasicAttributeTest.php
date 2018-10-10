@@ -28,7 +28,7 @@ class BasicAttributeFake extends BasicAttribute
     }
 }
 
-class BasicAttributeTest extends \PHPUnit_Framework_TestCase
+class BasicAttributeTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testSetKey()

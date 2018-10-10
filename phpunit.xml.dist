@@ -2,7 +2,6 @@
 <phpunit
     colors="true"
     bootstrap="tests/phpunit-bootstrap.php"
-    strict="true"
 >
 
   <testsuites>

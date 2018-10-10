@@ -5,7 +5,7 @@ use Bpost\BpostApiClient\Bpost\Order\Address;
 use Bpost\BpostApiClient\Bpost\Order\Box\BpostOnAppointment;
 use Bpost\BpostApiClient\Bpost\Order\Receiver;
 
-class BpostOnAppointmentTest extends \PHPUnit_Framework_TestCase
+class BpostOnAppointmentTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

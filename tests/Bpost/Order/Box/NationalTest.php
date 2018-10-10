@@ -37,7 +37,7 @@ class NationalFake extends National
     }
 }
 
-class NationalTest extends \PHPUnit_Framework_TestCase
+class NationalTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Tests the methods that are implemented by the children
