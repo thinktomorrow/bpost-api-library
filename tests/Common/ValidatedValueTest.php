@@ -20,7 +20,7 @@ class ValidatedValueFake extends ValidatedValue
     }
 }
 
-class ValidatedValueTest extends \PHPUnit_Framework_TestCase
+class ValidatedValueTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testGetValue()

@@ -29,15 +29,19 @@ class NationalFake extends National
 
     /**
      * @param  \SimpleXMLElement $xml
-     * @return self
+     * @param National|null $self
+     *
+     * @return BpostApiClient\Bpost\Order\Box\AtHome
+     * @throws BpostApiClient\BpostException
+     * @throws BpostApiClient\Exception\XmlException\BpostXmlInvalidItemException
      */
-    public static function createFromXML(\SimpleXMLElement $xml)
+    public static function createFromXML(\SimpleXMLElement $xml, National $self = null)
     {
         return parent::createFromXML($xml->nationalFake, new self());
     }
 }
 
-class NationalTest extends \PHPUnit_Framework_TestCase
+class NationalTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Tests the methods that are implemented by the children

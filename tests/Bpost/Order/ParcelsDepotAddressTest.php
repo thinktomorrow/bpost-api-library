@@ -4,7 +4,7 @@ namespace Bpost;
 use Bpost\BpostApiClient\Bpost\Order\ParcelsDepotAddress;
 use Bpost\BpostApiClient\Exception\BpostLogicException\BpostInvalidLengthException;
 
-class ParcelsDepotAddressTest extends \PHPUnit_Framework_TestCase
+class ParcelsDepotAddressTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Create a generic DOM Document

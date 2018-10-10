@@ -26,7 +26,7 @@ class ComplexAttributeFake extends ComplexAttribute
     }
 }
 
-class ComplexAttributeTest extends \PHPUnit_Framework_TestCase
+class ComplexAttributeTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testGetPrefixedTagName()
