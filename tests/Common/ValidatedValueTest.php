@@ -31,7 +31,7 @@ class ValidatedValueTest extends \PHPUnit\Framework\TestCase
         $fake = new ValidatedValueFake('qsd');
         $this->assertSame('qsd', (string)$fake);
 
-        $this->setExpectedException('Bpost\BpostApiClient\Exception\BpostLogicException');
+        $this->expectException('Bpost\BpostApiClient\Exception\BpostLogicException');
         new ValidatedValueFake('aze');
     }
 
